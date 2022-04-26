@@ -17,6 +17,9 @@ public class BankApp {
         switch (inputNumber){
             case 1:
                 account.showAccount();
+            case 2:
+                account.depositMoney();
+
         }
     }
 }
