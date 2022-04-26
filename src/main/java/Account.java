@@ -42,4 +42,11 @@ public class Account {
         balance = scanner.nextLong();
 
     }
+
+    public void showAccount() {
+        System.out.println("Name: " + AccountName);
+        System.out.println("Surname: " + AccountSurname);
+        System.out.println("Account number: " + AccountNumber);
+        System.out.println("Balance: " + balance);
+    }
 }
